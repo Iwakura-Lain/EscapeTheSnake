@@ -550,6 +550,7 @@ GameObject:
   - component: {fileID: 1150049182}
   - component: {fileID: 1150049181}
   - component: {fileID: 1150049183}
+  - component: {fileID: 1150049185}
   m_Layer: 0
   m_Name: Square (1)
   m_TagString: Turn
@@ -648,6 +649,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1150049185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150049180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"DegreesToTurn","value":{"$content":-90,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &1170907151
 GameObject:
   m_ObjectHideFlags: 0
