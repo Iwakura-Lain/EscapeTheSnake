@@ -8,6 +8,7 @@ TagManager:
   - obsticle
   - Booster
   - Snake_Boost
+  - Slow
   layers:
   - Default
   - TransparentFX
