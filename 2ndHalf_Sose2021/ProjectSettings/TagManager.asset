@@ -9,6 +9,8 @@ TagManager:
   - Booster
   - Snake_Boost
   - Slow
+  - Enemy
+  - LevelStart
   layers:
   - Default
   - TransparentFX
