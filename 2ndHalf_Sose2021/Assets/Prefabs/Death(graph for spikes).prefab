@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3481098161406445290}
   m_Layer: 0
   m_Name: Death(graph for spikes)
-  m_TagString: obsticle
+  m_TagString: DeadlyObstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
