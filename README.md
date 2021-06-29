@@ -14,9 +14,26 @@ for a second semester at Game Design program of the [University of Applied Scien
 
 ##  Main features:
 - endless runner, BUT with turns
-- collecting items
-- score
+- traps and boosters
+- score (not done yet)
 ---
+## How to play:
+
+use A and D to move left and right.
+Some items you should collect and some avoid.
+
+#Items:
+
+Cheese: boost for your speed
+Slime: slows you down
+Dead rat: boost for the snake, but if you will take it, snake could not get it
+Spikes: kill you
+
+
+##Current BUGS:
+
+Snake gets stack sometimes because of sharp turns. If player goes far though the level, 
+he/she can meet the snake coming from the top of the screen
 
 ## Credits
 
