@@ -260,6 +260,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4113326162631567943}
   - component: {fileID: 6811936524128082643}
+  - component: {fileID: -8883083092419713129}
   m_Layer: 31
   m_Name: SpikesPalette
   m_TagString: Untagged
@@ -294,6 +295,21 @@ Grid:
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
+--- !u!114 &-8883083092419713129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8063195046957278124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!114 &1098520229409304818
 MonoBehaviour:
   m_ObjectHideFlags: 0
