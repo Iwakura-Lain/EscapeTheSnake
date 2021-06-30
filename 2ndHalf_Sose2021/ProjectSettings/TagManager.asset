@@ -5,10 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Turn
-  - obsticle
   - Booster
   - Snake_Boost
   - Slow
+  - Enemy
+  - LevelStart
+  - DeadlyObstacle
   layers:
   - Default
   - TransparentFX
