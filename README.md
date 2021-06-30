@@ -32,7 +32,7 @@ Spikes: kill you
 
 ##Current BUGS:
 
-Snake gets stack sometimes because of sharp turns. If player goes far though the level, 
+Snake gets stuck sometimes because of sharp turns. If player goes far though the level, 
 he/she can meet the snake coming from the top of the screen
 
 ## Credits
