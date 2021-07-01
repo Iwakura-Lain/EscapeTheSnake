@@ -1525,8 +1525,6 @@ GameObject:
   m_Component:
   - component: {fileID: 334861147}
   - component: {fileID: 334861149}
-  - component: {fileID: 334861148}
-  - component: {fileID: 334861150}
   m_Layer: 0
   m_Name: DifficultyTriggers
   m_TagString: DifficultyTrigger
@@ -1549,22 +1547,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &334861148
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 334861146}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 00ab4969a8a566a418a499ddbafcf65b, type: 2}
 --- !u!114 &334861149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1580,21 +1562,6 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
---- !u!114 &334861150
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 334861146}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"DifficultyNumber","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"MaxDifficulty","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
 --- !u!1 &606365153
 GameObject:
   m_ObjectHideFlags: 0
@@ -1607,6 +1574,7 @@ GameObject:
   - component: {fileID: 606365155}
   - component: {fileID: 606365157}
   - component: {fileID: 606365156}
+  - component: {fileID: 606365158}
   m_Layer: 0
   m_Name: DifficultyTrigger1
   m_TagString: DifficultyTrigger
@@ -1663,12 +1631,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 606365153}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 00ab4969a8a566a418a499ddbafcf65b, type: 2}
 --- !u!114 &606365157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1678,13 +1647,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 606365153}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 00ab4969a8a566a418a499ddbafcf65b, type: 2}
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!114 &606365158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606365153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"DifficultyNumber","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"MaxDifficulty","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &826560134
 GameObject:
   m_ObjectHideFlags: 0
