@@ -1,28 +1,28 @@
 fileFormatVersion: 2
-guid: 0e27c5bbb86590645962e303fe6fabbe
+guid: d6ad7685e5eab2f409d4be8b913f4b20
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1352437400289087798
-    second: snakespritesheet_0
+      213: -7328002101439534142
+    second: 1rotatedsnakemovementspritesheet384_0
   - first:
-      213: -5685674752089447850
-    second: snakespritesheet_1
+      213: 1861586229798385334
+    second: 1rotatedsnakemovementspritesheet384_1
   - first:
-      213: 4555983112897049905
-    second: snakespritesheet_2
+      213: -4745583765757246414
+    second: 1rotatedsnakemovementspritesheet384_2
   - first:
-      213: -5850099493449264666
-    second: snakespritesheet_3
+      213: -6310000107933827522
+    second: 1rotatedsnakemovementspritesheet384_3
   - first:
-      213: -2557230367623657126
-    second: snakespritesheet_4
+      213: -5141165366870752240
+    second: 1rotatedsnakemovementspritesheet384_4
   - first:
-      213: 375835407568387917
-    second: snakespritesheet_5
+      213: -7745617693313694733
+    second: 1rotatedsnakemovementspritesheet384_5
   - first:
-      213: -1029652890889209874
-    second: snakespritesheet_6
+      213: 2783323031537239324
+    second: 1rotatedsnakemovementspritesheet384_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -67,7 +67,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 384
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -136,13 +136,139 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: snakespritesheet_0
+      name: 1rotatedsnakemovementspritesheet384_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2304
+        width: 768
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb61660ae4bd4a90800000000000000
+      internalID: -7328002101439534142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1rotatedsnakemovementspritesheet384_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 768
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b634e910dea5d910800000000000000
+      internalID: 1861586229798385334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1rotatedsnakemovementspritesheet384_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 768
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234cd2e45bc442eb0800000000000000
+      internalID: -4745583765757246414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1rotatedsnakemovementspritesheet384_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 768
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e7de965506e68a0800000000000000
+      internalID: -6310000107933827522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1rotatedsnakemovementspritesheet384_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 768
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014c0208659e6a8b0800000000000000
+      internalID: -5141165366870752240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1rotatedsnakemovementspritesheet384_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 768
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f38e08feb9028490800000000000000
+      internalID: -7745617693313694733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1rotatedsnakemovementspritesheet384_6
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 128
+        width: 768
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,134 +276,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6311f2966a2d4c210800000000000000
-      internalID: 1352437400289087798
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: snakespritesheet_1
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6522d4ddfec6811b0800000000000000
-      internalID: -5685674752089447850
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: snakespritesheet_2
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 64
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 13538e6a08a1a3f30800000000000000
-      internalID: 4555983112897049905
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: snakespritesheet_3
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e19340818540dea0800000000000000
-      internalID: -5850099493449264666
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: snakespritesheet_4
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 64
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a5943f88784e28cd0800000000000000
-      internalID: -2557230367623657126
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: snakespritesheet_5
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 64
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d4fb02adf4c373500800000000000000
-      internalID: 375835407568387917
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: snakespritesheet_6
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 64
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ee7389ca620f5b1f0800000000000000
-      internalID: -1029652890889209874
+      spriteID: c15c0fdec8950a620800000000000000
+      internalID: 2783323031537239324
       vertices: []
       indices: 
       edges: []
