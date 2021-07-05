@@ -182,7 +182,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: c2c485b3f7c8232429790c5e75fbad99, type: 3}
-    m_FontSize: 79
+    m_FontSize: 88
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 5
@@ -193,7 +193,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Distance travelled
+  m_Text: 'Distance:'
 --- !u!222 &20256840
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -496,7 +496,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Score:'
+  m_Text: 'Results:'
 --- !u!222 &857557427
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -517,7 +517,7 @@ GameObject:
   - component: {fileID: 1046811872}
   - component: {fileID: 1046811871}
   m_Layer: 5
-  m_Name: Speed
+  m_Name: SpeedResult
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -564,7 +564,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: c2c485b3f7c8232429790c5e75fbad99, type: 3}
-    m_FontSize: 79
+    m_FontSize: 88
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 5
@@ -596,7 +596,7 @@ GameObject:
   - component: {fileID: 1154655981}
   - component: {fileID: 1154655980}
   m_Layer: 5
-  m_Name: Dist
+  m_Name: DistResult
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -643,7 +643,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: c2c485b3f7c8232429790c5e75fbad99, type: 3}
-    m_FontSize: 79
+    m_FontSize: 88
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 5
@@ -674,6 +674,8 @@ GameObject:
   - component: {fileID: 1356702323}
   - component: {fileID: 1356702325}
   - component: {fileID: 1356702324}
+  - component: {fileID: 1356702327}
+  - component: {fileID: 1356702326}
   m_Layer: 5
   m_Name: Score
   m_TagString: Untagged
@@ -741,6 +743,38 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1356702322}
   m_CullTransparentMesh: 1
+--- !u!114 &1356702326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1356702322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: fe781c2b72fb42249ba197b6f06d3dfe, type: 2}
+--- !u!114 &1356702327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1356702322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"DistScore","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 1154655980}
 --- !u!1 &1405496963
 GameObject:
   m_ObjectHideFlags: 0
@@ -954,7 +988,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: c2c485b3f7c8232429790c5e75fbad99, type: 3}
-    m_FontSize: 79
+    m_FontSize: 88
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 5
@@ -986,7 +1020,7 @@ GameObject:
   - component: {fileID: 1634087724}
   - component: {fileID: 1634087723}
   m_Layer: 5
-  m_Name: Collictible
+  m_Name: CollictibleResult
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1033,7 +1067,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: c2c485b3f7c8232429790c5e75fbad99, type: 3}
-    m_FontSize: 79
+    m_FontSize: 88
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 5
@@ -1114,7 +1148,7 @@ MonoBehaviour:
   m_ChildAlignment: 1
   m_StartCorner: 0
   m_StartAxis: 1
-  m_CellSize: {x: 50, y: 200}
+  m_CellSize: {x: 150, y: 200}
   m_Spacing: {x: 15, y: 3}
   m_Constraint: 0
   m_ConstraintCount: 2
@@ -1390,7 +1424,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: c2c485b3f7c8232429790c5e75fbad99, type: 3}
-    m_FontSize: 79
+    m_FontSize: 88
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 5
