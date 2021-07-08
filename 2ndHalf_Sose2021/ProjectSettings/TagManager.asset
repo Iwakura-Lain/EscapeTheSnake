@@ -11,6 +11,7 @@ TagManager:
   - Enemy
   - LevelStart
   - DeadlyObstacle
+  - DifficultyTrigger
   layers:
   - Default
   - TransparentFX
