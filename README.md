@@ -25,8 +25,11 @@ Some items you should collect and some avoid.
 #Items:
 
 Cheese: boost for your speed
+
 Slime: slows you down
+
 Dead rat: boosts the snake, but if you will take it, snake could not get it
+
 Spikes: kill you if you will touch them
 
 ## Credits
