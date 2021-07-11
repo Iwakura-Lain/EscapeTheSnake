@@ -25,8 +25,11 @@ Some items you should collect and some avoid.
 #Items:
 
 Cheese: boost for your speed
+
 Slime: slows you down
+
 Dead rat: boosts the snake, but if you will take it, snake could not get it
+
 Spikes: kill you if you will touch them
 
 ## Credits
@@ -41,8 +44,12 @@ Spikes: kill you if you will touch them
 
 ---
 [This answer](https://forum.unity.com/threads/bolt-webgl-build-not-recognizing-app-variables.1016332/) from unity forum helped a lot with WebGL build issues!
-All graphic assets were made using https://www.pixilart.com/
+
+All graphic assets were made using [pixilart.com](https://www.pixilart.com/)
+
 Font: Connection II
+
 WebGL build is made with [Better Minimal WebGL Template](https://seansleblanc.itch.io/better-minimal-webgl-template) 
+
 ---
 ### [Repository](https://bitbucket.org/btkgamedesign/2021p2_smaa_t4/)
