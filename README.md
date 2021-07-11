@@ -42,7 +42,7 @@ Spikes: kill you if you will touch them
 ---
 [This answer](https://forum.unity.com/threads/bolt-webgl-build-not-recognizing-app-variables.1016332/) from unity forum helped a lot with WebGL build issues!
 
-All graphic assets were made using https://www.pixilart.com/
+All graphic assets were made using [pixilart.com](https://www.pixilart.com/)
 
 Font: Connection II
 
