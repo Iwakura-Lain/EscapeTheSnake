@@ -1,4 +1,4 @@
-# Escape The Snake (temporary name)
+# Escape The Snake
 
 
 ## About
@@ -44,6 +44,8 @@ Spikes: kill you if you will touch them
 
 ---
 [This answer](https://forum.unity.com/threads/bolt-webgl-build-not-recognizing-app-variables.1016332/) from unity forum helped a lot with WebGL build issues!
+
+[Spawning system](https://www.youtube.com/watch?v=4OQjnKUENoE)
 
 All graphic assets were made using [pixilart.com](https://www.pixilart.com/)
 
