@@ -1,4 +1,4 @@
-# Escape The Snake (temporary name)
+# Escape The Snake
 
 
 ## About
