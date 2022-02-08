@@ -54,4 +54,4 @@ Font: Connection II
 WebGL build is made with [Better Minimal WebGL Template](https://seansleblanc.itch.io/better-minimal-webgl-template) 
 
 ---
-### [Repository](https://bitbucket.org/btkgamedesign/2021p2_smaa_t4/)
+### [Repository (initial, for university)](https://bitbucket.org/btkgamedesign/2021p2_smaa_t4/)
